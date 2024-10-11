@@ -99,12 +99,11 @@ Para uma prévia da aplicação, confira os mockups no Figma, do projeto [Web](h
 
 ### **📱 Home e Carrinho, respectivamente, da aplicação Mobile**
 <div style="display: flex; justify-content: space-around; align-items: center; width: 100%;">
-    <img src="./media/mobile-home.png" alt="Mockup Mobile Home da Gam3r Store" style="width: 45%; margin: 10px;">
-    <img src="./media/mobile-cart.png" alt="Mockup Mobile Cart da Gam3r Store" style="width: 45%; margin: 10px;">
+    <img src="./media/mobile-home.png" alt="Mockup Mobile Home da Gam3r Store" style="width: 49%; margin: 10px;">
+    <img src="./media/mobile-cart.png" alt="Mockup Mobile Cart da Gam3r Store" style="width: 49%; margin: 10px;">
 </div>
 
 
-
-
-## 🤝 **Contribuindo**
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um **pull request** ou sugerir melhorias via **issues**.
+## 🌟 **Agradecimento**
+Se você leu até aqui, obrigado por dedicar seu tempo para conhecer o projeto *Gam3r Store*! 😄  
+Se achou útil e gostou do conteúdo, ficaria muito feliz se você pudesse deixar uma ⭐ no repositório. Isso ajuda bastante! 🚀
