@@ -99,8 +99,8 @@ Para uma prévia da aplicação, confira os mockups no Figma, do projeto [Web](h
 
 ### **📱 Home e Carrinho, respectivamente, da aplicação Mobile**
 <div style="display: flex; justify-content: space-around; align-items: center; width: 100%;">
-    <img src="./media/mobile-home.png" alt="Mockup Mobile Home da Gam3r Store" style="width: 50%; margin: 5px 10px;">
-    <img src="./media/mobile-cart.png" alt="Mockup Mobile Cart da Gam3r Store" style="width: 50%; margin: 5px 10px;">
+    <img src="./media/mobile-home.png" alt="Mockup Mobile Home da Gam3r Store" style="width: 50%; margin: 15px;">
+    <img src="./media/mobile-cart.png" alt="Mockup Mobile Cart da Gam3r Store" style="width: 50%; margin: 15px;">
 </div>
 
 
