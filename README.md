@@ -86,22 +86,22 @@ yarn turbo run dev
 ## 📱 **Mockups e Design**
 Para uma prévia da aplicação, confira os mockups no Figma, do projeto [Web](https://www.figma.com/design/0YkvCVWX1JNokdsHlufqyR/Gam3rStore?node-id=0-1&t=ByqB0jN0VRF4Sw6u-1) e também do projeto [Mobile](https://www.figma.com/design/2KkR2QqezLQn5FPa7gaoUB/Gam3rStore---Mobile?t=PMsmr7TGbliPr8T3-1) ou veja abaixo:
 
-<div style="display: flex; flex-direction: row; justify-content: center; margin: 40px">
-  <div style="margin: 20px">
+<div style="display: flex; flex-direction: column; justify-content: center; gap: 40px">
+  <div style="display: flex; flex-direction: column; justify-content: center; gap: 20px">
     <p>Página Web sobre Informações do Produto</p>
     <div style="display: flex; justify-content: center; margin: 20px">
         <img src="./media/web-product-info.png" alt="Mockup Web Product Info da Gam3r Store">
     </div>
   </div>
 
-  <div style="margin: 20px"> 
+  <div style="display: flex; flex-direction: column; justify-content: center; gap: 20px"> 
     <p>Página Web do Carrinho do Usuário</p>
     <div style="display: flex; justify-content: center; margin: 20px">
         <img src="./media/web-cart.png" alt="Mockup Web Cart da Gam3r Store">
     </div>
   </div>
 
-  <div style="margin: 20px">
+  <div style="display: flex; flex-direction: row; justify-content: center; gap: 20px">
     <p>Home e Carrinho, respectivamente, da aplicação Mobile</p>
     <div style="display: flex; justify-content: space-around; align-items: center; height: 300px;">
         <img src="./media/mobile-home.png" alt="Mockup Mobile Home da Gam3r Store" style="width: 45%; margin: 10px;">
