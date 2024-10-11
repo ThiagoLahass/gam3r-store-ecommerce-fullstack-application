@@ -1,9 +1,36 @@
-# 🎮 **Gam3r Store** - Seu Paraíso de Games!
+# 🎮 **Gam3r Store** - Um ecommerce voltado para Gamers!
 
 _Bem-vindo ao repositório do **Gam3r Store**, uma aplicação Fullstack de e-commerce feita para gamers de verdade! 🕹️_
 
 <p align="center">
-  <img src="/media/web-home.png" alt="Mockup da loja Gam3r Store">
+  <img src="/media/web-home.png" alt="Mockup da loja Gam3r Store" width="80%">
+</p>
+
+<p align="center">
+  <a href="https://nestjs.com/">
+    <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white" alt="NestJS">
+  </a>
+  <a href="https://www.postgresql.org/">
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  </a>
+  <a href="https://www.prisma.io/">
+    <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" alt="Prisma">
+  </a>
+  <a href="https://reactjs.org/">
+    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React">
+  </a>
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" alt="Next.js">
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS">
+  </a>
+  <a href="https://reactnative.dev/">
+    <img src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React Native">
+  </a>
+  <a href="https://expo.dev/">
+    <img src="https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white" alt="Expo">
+  </a>
 </p>
 
 ---
@@ -53,12 +80,7 @@ cd gam3r-store
 yarn install
 ```
 
-3. Configure as variáveis de ambiente com o seu `.env`:
-```bash
-cp .env.example .env
-```
-
-4. Rode a aplicação (use *TurboRepo* para monorepos):
+3. Rode a aplicação (use *TurboRepo* para monorepos):
 ```bash
 yarn turbo run dev
 ```
@@ -77,9 +99,12 @@ yarn turbo run dev
 
 ## 🛠️ **Tecnologias utilizadas**
 
-- **Backend:** [Nest], [PostgreSQL], [Prisma]
-- **Frontend:** [React], [Next], [TailwindCSS]
-- **Mobile:** [React-Native], [Expo]
+- **Backend:** [![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)](https://nestjs.com) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org) [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)](https://www.prisma.io)
+
+- **Frontend:** [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org) [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org) [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+
+- **Mobile:** [![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactnative.dev) [![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)](https://expo.dev)
+
 - **Core:** Regras de negócio desacopladas, seguindo boas práticas de arquitetura
 - **Monorepo:** Turborepo
 
