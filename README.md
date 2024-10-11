@@ -1,81 +1,96 @@
-# Turborepo starter
+# 🎮 **Gam3r Store** - Seu Paraíso de Games!
 
-This is an official starter Turborepo.
+_Bem-vindo ao repositório do **Gam3r Store**, uma aplicação Fullstack de e-commerce feita para gamers de verdade! 🕹️_
 
-## Using this example
+<p align="center">
+  <img src="https://via.placeholder.com/800x400" alt="Mockup da loja Gam3r Store">
+</p>
 
-Run the following command:
+---
 
-```sh
-npx create-turbo@latest
+## 📦 **Sobre o Projeto**
+A **Gam3r Store** é uma loja online onde você pode comprar tudo relacionado a games, desde consoles até periféricos de última geração. Este projeto foi desenvolvido para o meu portfólio pessoal e abrange toda a stack: backend, frontend, core e mobile, com uma arquitetura pensada para ser modular e flexível.
+
+Aqui está o que você vai encontrar neste projeto:
+
+- 🚀 **Backend:** API robusta construída para gerenciar produtos, usuários e pedidos.
+- 🎨 **Frontend:** Uma interface elegante e intuitiva desenvolvida para uma ótima experiência do usuário.
+- 📱 **Mobile:** Experiência de compra mobile-first com o app Gam3r Store.
+- 🛠️ **Core (em `packages/core`):** As regras de negócio e a lógica da aplicação estão separadas das tecnologias e ferramentas, garantindo flexibilidade e independência de frameworks.
+
+---
+
+## 🏗 **Monorepo com Turborepo**
+
+Este projeto utiliza o **Turborepo** para gerenciar múltiplos pacotes e aplicações no mesmo repositório.
+
+### **Apps e Pacotes:**
+
+- **backend:** API construída com Node.js
+- **frontend:** Aplicação web usando React
+- **mobile:** Aplicação mobile usando React Native
+- **@gam3r/core:** Pacote que contém as regras de negócio
+- **@gam3r/eslint-config:** Configurações do eslint compartilhadas
+- **@gam3r/typescript-config:** Arquivos de configuração do TypeScript
+
+---
+
+## 🚀 **Como rodar o projeto**
+
+### Pré-requisitos:
+- Node.js (v14+)
+- Yarn ou NPM
+
+### Passo a passo:
+1. Clone o repositório:
+```bash
+git clone https://github.com/ThiagoLahass/gam3r-store-ecommerce-fullstack-application.git
 ```
 
-## What's inside?
+2. Acesse o diretório do projeto e instale as dependências:
+```bash
+cd gam3r-store
+yarn install
+```
 
-This Turborepo includes the following packages/apps:
+3. Configure as variáveis de ambiente com o seu `.env`:
+```bash
+cp .env.example .env
+```
 
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+4. Rode a aplicação (use *TurboRepo* para monorepos):
+```bash
+yarn turbo run dev
+```
 
 ### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
+Para construir todos os pacotes e aplicações:
+```bash
+yarn turbo run build
 ```
 
 ### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
+Para rodar em ambiente de desenvolvimento:
+```bash
+yarn turbo run dev
 ```
 
-### Remote Caching
+## 🛠️ **Tecnologias utilizadas**
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+- **Backend:** [Nest], [PostgreSQL], [Prisma]
+- **Frontend:** [React], [Next], [TailwindCSS]
+- **Mobile:** [React-Native], [Expo]
+- **Core:** Regras de negócio desacopladas, seguindo boas práticas de arquitetura
+- **Monorepo:** Turborepo
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+## 📱 **Mockups e Design**
+Para uma prévia da aplicação, confira os mockups no Figma, do projeto [Web](https://www.figma.com/design/0YkvCVWX1JNokdsHlufqyR/Gam3rStore?node-id=0-1&t=ByqB0jN0VRF4Sw6u-1) e também do projeto [Mobile](https://www.figma.com/design/2KkR2QqezLQn5FPa7gaoUB/Gam3rStore---Mobile?t=PMsmr7TGbliPr8T3-1) ou veja abaixo:
 
-```
-cd my-turborepo
-npx turbo login
-```
+<p align="center"> <img src="./media/web-home.png" alt="Mockup Web Home da Gam3r Store"> </p>
+<p align="center"> <img src="./media/web-cart.png" alt="Mockup Web Cart da Gam3r Store"> </p>
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+<p align="center"> <img src="./media/mobile-home.png" alt="Mockup Mobile Home da Gam3r Store"> </p>
+<p align="center"> <img src="./media/mobile-cart.png" alt="Mockup Mobile Cart da Gam3r Store"> </p>
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+## 🤝 **Contribuindo**
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um **pull request** ou sugerir melhorias via **issues**.
