@@ -89,28 +89,29 @@ Para uma prévia da aplicação, confira os mockups no Figma, do projeto [Web](h
 <div style="display: flex; flex-direction: column; justify-content: center; gap: 40px">
   
   <div style="display: flex; flex-direction: column; justify-content: center; gap: 20px; text-align: center;">
-    <p class="font-bold text-emerald-500">Página Web sobre Informações do Produto</p>
+    <p style="font-weight: bold; color: #10B981;">Página Web sobre Informações do Produto</p>
     <div style="display: flex; justify-content: center; margin: 20px">
         <img src="./media/web-product-info.png" alt="Mockup Web Product Info da Gam3r Store">
     </div>
   </div>
 
   <div style="display: flex; flex-direction: column; justify-content: center; gap: 20px; text-align: center;"> 
-    <p class="font-bold text-emerald-500">Página Web do Carrinho do Usuário</p>
+    <p style="font-weight: bold; color: #10B981;">Página Web do Carrinho do Usuário</p>
     <div style="display: flex; justify-content: center; margin: 20px">
         <img src="./media/web-cart.png" alt="Mockup Web Cart da Gam3r Store">
     </div>
   </div>
 
   <div style="display: flex; flex-direction: column; justify-content: center; gap: 20px; text-align: center;">
-    <p class="font-bold text-emerald-500">Home e Carrinho, respectivamente, da aplicação Mobile</p>
+    <p style="font-weight: bold; color: #10B981;">Home e Carrinho, respectivamente, da aplicação Mobile</p>
     <div style="display: flex; justify-content: space-around; align-items: center; height: 300px; width: 100%;">
-        <img src="./media/mobile-home.png" alt="Mockup Mobile Home da Gam3r Store" style="width: 45%; margin: 10px;">
-        <img src="./media/mobile-cart.png" alt="Mockup Mobile Cart da Gam3r Store" style="width: 45%; margin: 10px;">
+        <img src="./media/mobile-home.png" alt="Mockup Mobile Home da Gam3r Store" style="width: 49%; margin: 10px;">
+        <img src="./media/mobile-cart.png" alt="Mockup Mobile Cart da Gam3r Store" style="width: 49%; margin: 10px;">
     </div>
   </div>
 
 </div>
+
 
 
 ## 🤝 **Contribuindo**
